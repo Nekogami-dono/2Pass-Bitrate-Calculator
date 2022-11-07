@@ -1,14 +1,13 @@
 #2Pass-Bitrate-Calculator
 __author__ = "Nekogami"
-__version__ = "0.0.2"
-__email__ = "dev@nekogami.moe"
+__version__ = "0.0.3"
 __status__ = "Dev"
 import math
 
 Targetsize = int(input("Target-Filesize in MB: "))
-Audiobit = int(input("Audio Bitrate: "))
+Audiobit = int(input("Audio Bitrate in kBit: "))
 Runtime = input("Runtime hh:mm:ss: ")
-minbit = input("Min Bitrate: ")
+minbit = input("Min Bitrate in kBit: ")
 
 
 #Calc Time
